@@ -35,9 +35,17 @@ console.log(Math.max(...x)); */
 
 
 /* const x = [2, 1, 3];
-const avrg = x.reduce( (a,b) => a + b, 0) / x.length;
 
-console.log(avrg); */
+function averageFinder(array){
+let sum = 0
+for (let number of array){
+    sum = sum + number
+}
+avrg = sum / array.length;
+console.log(avrg)
+}
+
+averageFinder(x) */
 
 
 
